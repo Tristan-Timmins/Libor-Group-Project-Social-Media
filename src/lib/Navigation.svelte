@@ -6,7 +6,8 @@
     const navigationItems = [
         { name: 'Home', path: '/' },
         { name: 'Catalogue', path: '/catalogue' },
-        { name: 'About', path: '/about' }
+        { name: 'About Us', path: '/aboutus' },
+        { name: 'Sign Up', path: '/signup'}
     ];
 
     let isOpen = false;

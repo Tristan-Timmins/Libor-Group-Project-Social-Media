@@ -7,7 +7,9 @@
         { name: 'Home', path: '/' },
         { name: 'Catalogue', path: '/catalogue' },
         { name: 'About Us', path: '/aboutus' },
-        { name: 'Sign Up', path: '/signup'}
+        { name: 'Sign Up', path: '/signup'},
+        { name: 'About', path: '/about' },
+        { name: 'Trending', path: '/trending' }
     ];
 
     let isOpen = false;

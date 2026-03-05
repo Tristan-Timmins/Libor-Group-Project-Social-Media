@@ -5,13 +5,10 @@
 
     const navigationItems = [
         { name: 'Home', path: '/' },
-        { name: 'Catalogue', path: '/catalogue' },
-        { name: 'About', path: '/about' },
-        { name: 'Friends', path: '/Friend Profile Page'}
+        { name: 'Friends', path: '/Friend Profile Page'},
+        { name: 'Trending', path: '/trending' },
         { name: 'About Us', path: '/aboutus' },
-        { name: 'Sign Up', path: '/signup'},
-        { name: 'About', path: '/about' },
-        { name: 'Trending', path: '/trending' }
+        { name: 'Sign Up', path: '/signup'}
     ];
 
     let isOpen = false;

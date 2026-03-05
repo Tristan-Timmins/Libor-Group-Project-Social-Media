@@ -8,6 +8,10 @@
         { name: 'Catalogue', path: '/catalogue' },
         { name: 'About', path: '/about' },
         { name: 'Friends', path: '/Friend Profile Page'}
+        { name: 'About Us', path: '/aboutus' },
+        { name: 'Sign Up', path: '/signup'},
+        { name: 'About', path: '/about' },
+        { name: 'Trending', path: '/trending' }
     ];
 
     let isOpen = false;

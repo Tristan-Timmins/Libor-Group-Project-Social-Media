@@ -12,7 +12,6 @@
     <Navigation />
 </header>
 
-
 <style>
     .header {
         display: flex;

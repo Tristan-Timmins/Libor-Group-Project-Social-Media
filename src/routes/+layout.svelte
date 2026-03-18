@@ -33,6 +33,7 @@
         display: flex;
         flex-direction: column;
         position: relative;
+        background-color: rgb(75, 153, 255);
     }
 
     @media (max-width: 768px) {

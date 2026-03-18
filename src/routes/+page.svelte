@@ -26,28 +26,41 @@
         </p>
         <a href="{resolve('/aboutus')}" class="learn-more">Want to know more? Check out The Founders →</a>
     </section>
+    <div class = "friends-section">
+    <!--Friends Section-->
+    THIS IS THE FRIENDS SECTION
+    </div>
+
+    <div class = "recent-posts">
+        YOUR RECENT POSTS
+    </div>
+
+    <div class = "friends-posts">
+        FRIENDS RECENT POSTS
+    </div>
 </div>
-
-
 <style>
+    
     .home-container {
-        display: flex;
-        flex-direction: column;
-        gap: var(--space-xl);
+        display: grid;
+        grid-template-columns: repeat(3, [col-start] 1fr);
+        gap: 20px;
     }
     
     /* About Teaser */
     .about-teaser {
         text-align: center;
-        padding: var(--space-lg) var(--space-md);
+        /*padding: var(--space-lg) var(--space-md);
         /*background-color: var(--color-background);
         border-top: var(--border-default);
         background: linear-gradient(to top, var(--color-surface), transparent);
         background-image: url('/images/backgrounds/scroll-teaser.png');*/
-        background-size: cover;
+        /*background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-        background-blend-mode: overlay;
+        background-blend-mode: overlay;*/
+        grid-column: col-start 1 / span 1;
+        grid-row: 1;
     }
 
     .about-teaser h2 {
@@ -68,7 +81,30 @@
         text-decoration: none;
     }
 
-   /* .learn-more:hover {
-        text-decoration: underline;
-    }*/
+   @media{
+    .friends-section
+    {
+        grid-column: col-start 1 / span 1;
+        grid-row: 2;
+        background-color: blueviolet;
+        color: aliceblue;
+        height: 800px;
+    }
+    .recent-posts
+    {
+        grid-column: col-start 2 / span 1;
+        grid-row: 2;
+        background-color: seagreen;
+        color: aliceblue;
+        height: 400px;
+    }
+    .friends-posts
+    {
+        grid-column: col-start 2 / span 1;
+        grid-row: 3;
+        background-color: hotpink;
+        color: aliceblue;
+        height: 400px;
+    }
+   }
 </style>

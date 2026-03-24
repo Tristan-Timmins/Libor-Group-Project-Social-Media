@@ -7,6 +7,7 @@
 <header class="header">
     <div class="logo-area">
         <img src={asset("/logo.png")} alt="Starter Kit Logo" />
+        <img src={asset("images/pfp1.png")} />
         <h1>Blog N' Log</h1>
     </div>
     <Navigation />

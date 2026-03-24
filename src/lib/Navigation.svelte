@@ -5,7 +5,6 @@
 
     const navigationItems = [
         { name: 'Home', path: '/' },
-        { name: 'Friends', path: '/friends/'},
         { name: 'Trending', path: '/trending/' },
         { name: 'About Us', path: '/aboutus/' },
         { name: 'Sign Up', path: '/signup/'}

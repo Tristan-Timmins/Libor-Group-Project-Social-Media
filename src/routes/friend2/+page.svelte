@@ -1,11 +1,11 @@
 <div class="grid-container">
-  <div class="item1">Username</div>
+  <div class="item1">DarkEagle36</div>
   <div class="item2">Profile Picture</div>
   <div class="item3">Send Friend Request</div>
   <div class="item4">Message</div>
-  <div class="item5">Name</div>
-  <div class="item6">Pronouns</div>
-  <div class="item7">User Bio</div>
+  <div class="item5">Ethan Cumsworth</div>
+  <div class="item6">He/Him</div>
+  <div class="item7">"Life is a highway". You only need 3 things in life, Booze, Birds and the Footie</div>
   <div class="item8">Post 1</div>
   <div class="item9">Post 2</div>
   <div class="item10">Post 3</div>
@@ -16,7 +16,6 @@
 
 
 <style>
-
 
 
 .grid-container {
@@ -49,7 +48,8 @@
 .item4 { grid-area: message; }
 .item5 { grid-area: name;}
 .item6 { grid-area: pronouns;}
-.item7 { grid-area: bio;}
+.item7 { grid-area: bio;
+width: 75%;}
 .item8 { grid-area: post1;}
 .item9 { grid-area: post2;}
 .item10 { grid-area: post3;}

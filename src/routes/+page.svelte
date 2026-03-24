@@ -13,11 +13,12 @@
 
     $: $catalogue && (featuredItems = $catalogue.slice(0, 4));
 
+    // State for 2000s styling (will be expanded in later commits)
+    let showRetroStyle = true; // Toggle this to switch between old and new design
 </script>
 
 <!-- Page Container -->
-<div class="home-container">
-
+<div class="home-container" class:retro-style={showRetroStyle}>
     <!-- About Teaser Section -->
     <section class="about-teaser">
         <h2>Welcome!</h2>
@@ -26,21 +27,23 @@
         </p>
         <a href="{resolve('/aboutus')}" class="learn-more">Want to know more? Check out The Founders →</a>
     </section>
-    <div class = "friends-section">
-    <!--Friends Section-->
-    THIS IS THE FRIENDS SECTION
+    
+    <div class="friends-section">
+        <!-- Friends Section will be replaced with retro version in next commit -->
+        THIS IS THE FRIENDS SECTION
     </div>
 
-    <div class = "recent-posts">
+    <div class="recent-posts">
         YOUR RECENT POSTS
     </div>
 
-    <div class = "friends-posts">
+    <div class="friends-posts">
         FRIENDS RECENT POSTS
     </div>
 </div>
+
 <style>
-    
+    /* Keep your existing styles */
     .home-container {
         display: grid;
         grid-template-columns: repeat(3, [col-start] 1fr);
@@ -50,15 +53,6 @@
     /* About Teaser */
     .about-teaser {
         text-align: center;
-        /*padding: var(--space-lg) var(--space-md);
-        /*background-color: var(--color-background);
-        border-top: var(--border-default);
-        background: linear-gradient(to top, var(--color-surface), transparent);
-        background-image: url('/images/backgrounds/scroll-teaser.png');*/
-        /*background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-blend-mode: overlay;*/
         grid-column: col-start 1 / span 1;
         grid-row: 1;
     }
@@ -80,31 +74,69 @@
         color: var(--color-accent);
         text-decoration: none;
     }
+    
+    /* Desktop Formatting */
+    @media (min-width: 769px) {
+        .friends-section {
+            grid-column: col-start 1 / span 1;
+            grid-row: 2;
+            background-color: blueviolet;
+            color: aliceblue;
+            height: 800px;
+        }
+        .recent-posts {
+            grid-column: col-start 2 / span 1;
+            grid-row: 2;
+            background-color: seagreen;
+            color: aliceblue;
+            height: 400px;
+        }
+        .friends-posts {
+            grid-column: col-start 2 / span 1;
+            grid-row: 3;
+            background-color: hotpink;
+            color: aliceblue;
+            height: 400px;
+        }
+    }
 
-   @media{
-    .friends-section
-    {
-        grid-column: col-start 1 / span 1;
-        grid-row: 2;
-        background-color: blueviolet;
-        color: aliceblue;
-        height: 800px;
+    /* Phone Formatting */
+    @media (max-width: 768px) {
+        .friends-section {
+            grid-column: col-start 1 / span 1;
+            grid-row: 2;
+            background-color: blueviolet;
+            color: aliceblue;
+            height: 800px;
+        }
+        .recent-posts {
+            grid-column: col-start 1 / span 1;
+            grid-row: 3;
+            background-color: seagreen;
+            color: aliceblue;
+            height: 400px;
+        }
+        .friends-posts {
+            grid-column: col-start 1 / span 1;
+            grid-row: 4;
+            background-color: hotpink;
+            color: aliceblue;
+            height: 400px;
+        }
     }
-    .recent-posts
-    {
-        grid-column: col-start 2 / span 1;
-        grid-row: 2;
-        background-color: seagreen;
-        color: aliceblue;
-        height: 400px;
+    
+    /* Retro styles - will be expanded in next commits */
+    .retro-style .about-teaser {
+        background: linear-gradient(180deg, #6699cc, #336699);
+        border: 3px groove #ccccff;
+        padding: 20px;
+        color: white;
+        text-shadow: 2px 2px 0 #000066;
     }
-    .friends-posts
-    {
-        grid-column: col-start 2 / span 1;
-        grid-row: 3;
-        background-color: hotpink;
-        color: aliceblue;
-        height: 400px;
+    
+    .retro-style .about-teaser h2 {
+        font-family: 'Papyrus', 'Comic Sans MS', fantasy;
+        font-size: 38px;
+        margin-bottom: 10px;
     }
-   }
 </style>

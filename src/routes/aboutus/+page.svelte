@@ -1,26 +1,41 @@
 <div class="about-container">
 <section>
     <div>
-        <h2 class="welcome-banner">Welcome to The Founders page...</h2>
-    <p>
+        <h2 class="welcome-banner">Welcome to The Founders Page!</h2>
+    <p class="welcome-paragraph">
         We've decided to create a website to surpass all other social platforms. 
         Tired of feeling like you don't have a cool place for you and your friends to hang out?
         Well worry no more.
     </p>
     </div>
 </section>
+<div class="info-section">
+    <h2>Meet the Founders:</h2>
+    <div class="beatrice">Founder 1: Beatrice Murphy
+        <p class="beatrice-text">
+            Beatrice was born in the suburbs as an only child. Since she was little, she dreamed of 
+            creating a site where she could talk to her friends at all times. Other sites didn't 
+            meet her needs, and so she put together a team of the people she trusted the most to
+            get the job done!
+        </p>
+    </div>
+    <div class="alex">Founder 2: Alex Humphrey
+        <p class="alex-text">
+            Alex never cared much for social media, but when she heard Beatrice wanted to make a 
+            place that she and her friends always dreamed of, she couldn't turn the offer down!
+            Having a profound knowledge of computer science, putting the site together was 
+            as easy as could be!
+        </p>
+    </div>
+    <div class="jimmy">Founder 3: Jimmy Jackson
+        <p class="jimmy-text">
+            Oh Jimmy, god where do I even begin? I get that he's a trusted friend of Beatrice's but 
+            seriously? Jimmy..grew up in a broken home, and used football as an escape from the hurt
+            the worlde dealt him when he was little. He agreed to help if he could use it to start 
+            a football forum within the site. We reluctantly agreed..
+        </p>
+    </div>
 
-<div class="grid-container">
-<div>Meet The Founders!</div>
-<div class="item2">Founder 1: Beatrice Murphy
-    
-</div>
-<div class="item3">Founder 2: Alex Humphrey
-    
-</div>
-<div class="item4">Founder 3: Jimmy Jackson
-
-</div>
 </div>
 
 </div>
@@ -32,7 +47,7 @@
         width: 500px;}
     .item4 {grid-area: right;
         width: 500px;}
-    
+    /*CONTAINER FOR BEGINNING OF PAGE**/
     .about-container{
         text-align: center;
         max-width: 900px;
@@ -40,27 +55,64 @@
         background-color: #ffffff;
         border-left: 1px solid #c0c0c0;
         border-right: 1px solid #c0c0c0;
-        border-bottom: 170px solid #ffffff;
+        border-bottom: 450px solid #ffffff;
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(1, 1fr);
         gap: 15px;
         padding: 15px; 
     }
-
-    .grid-container{
-        background-color: #074b80;
-        padding: 5px;
-    }
-
-    .grid-container > div {
-        background-color: rgba(255, 255, 255, 0.8);
-        text-align: center;
-        padding: 50px 0;
-        font-size: 20px;
-    }
-
+    /*INTRO PARAGRAPH**/
     .welcome-banner{
         font-family: 'Comic Sans MS';
+        text-align: center;
+        margin: 0;
+        padding: 10px;
+        border: 5px solid #b4e3fc;
+        border-radius: 5px;    
+        box-sizing: border-box;
+    }
+
+    .welcome-paragraph{
+        font-family: 'Comic Sans MS';
+        color: #0b0b0b;
+        padding: 10px;
+    }
+    /*FOUNDER INFORMATION SECTION**/
+    .info-section{
+        font-family: 'Comic Sans MS';
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        border: 5px solid #646e96;
+        background-color: #b4e3fc;
+    }
+    /*FOUNDER 1**/
+    .beatrice{
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bolder;
+    }
+    .beatrice-text{
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+    }
+    
+    /*FOUNDER 2**/
+    .alex{
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bolder;
+    }
+    .alex-text{
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+    }
+    
+    /*FOUNDER 3**/
+    .jimmy{
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bolder;
+    }
+    .jimmy-text{
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
     }
 </style>
 

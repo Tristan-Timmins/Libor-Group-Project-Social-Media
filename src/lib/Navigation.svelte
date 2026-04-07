@@ -365,7 +365,7 @@
     }
     
     /* Mobile Responsive */
-    @media (max-width: 600px) {
+    @media (max-width: 768px) {
         .nav-container {
             flex-direction: column;
             align-items: stretch;

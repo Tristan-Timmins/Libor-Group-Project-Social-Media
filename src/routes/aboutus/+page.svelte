@@ -89,6 +89,8 @@
     .beatrice{
         font-family: 'Courier New', Courier, monospace;
         font-weight: bolder;
+        border: 2px solid #646e96;
+        border-left: 5px solid #646e96;
     }
     .beatrice-text{
         font-family: 'Courier New', Courier, monospace;
@@ -99,6 +101,7 @@
     .alex{
         font-family: 'Courier New', Courier, monospace;
         font-weight: bolder;
+        border: 2px solid #646e96;
     }
     .alex-text{
         font-family: 'Courier New', Courier, monospace;
@@ -109,6 +112,7 @@
     .jimmy{
         font-family: 'Courier New', Courier, monospace;
         font-weight: bolder;
+        border: 2px solid #646e96;
     }
     .jimmy-text{
         font-family: 'Courier New', Courier, monospace;

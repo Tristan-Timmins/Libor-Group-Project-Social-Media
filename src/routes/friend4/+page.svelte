@@ -3,23 +3,23 @@
 </script>
 
 <div class="grid-container">
-  <div class="item1">EmoGothCyberWoman</div>
+  <div class="item1">Trololololo94</div>
   <div class="item2"> 
-     <img src={asset("/images/animeGirl.png")}/> </div>
-
-     <!---Items 8,9 and 10 are the users 3 most recent posts---> 
-
+     <img src={asset("/images/leScreenshot.png")}/> </div>
   <div class="item3">Send Friend Request</div>
   <div class="item4">Message</div>
-  <div class="item5">Emily Goldsmith</div>
-  <div class="item6">she/her</div>
-  <div class="item7">"He was a skater boy, she said see you later boy" -Avril Lavigne </div>
-  <div class="item8">have you ever loved something so much, that it hurts you?</div>
-  <div class="item9">my mom wont stop telling me to get off of this website. 
-    little does she know how much this place comforts me</div>
-  <div class="item10">to hate is painful, but so is to love  </div>
+  <div class="item5">TROLL!!!</div>
+  <div class="item6">he/him</div>
+  <div class="item7">You just got trolled epic style!!1!11!!
+  </div>
+  <div class="item8">xX_Frog_Gamer_Xx is mad at me because i said the phantom menace was terrible.
+    sad to see people not accepting facts 
+  </div>
+  <div class="item9">I DONT CARE IF I GET BANNED FOR RUDE BEHAVIOR</div>
+  <div class="item10">Jimmy...you know what you did</div>
   
 </div>
+
 
 
 

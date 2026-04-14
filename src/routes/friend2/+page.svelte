@@ -1,14 +1,24 @@
+<script>
+  import { asset } from "$app/paths";
+</script>
+
+
 <div class="grid-container">
   <div class="item1">DarkEagle36</div>
-  <div class="item2">Profile Picture</div>
+  <div class="item2">
+  <img src={asset("/images/nyanCat.png")}/> </div>
+    <!---Items 8,9 and 10 are the users 3 most recent posts---> 
+
   <div class="item3">Send Friend Request</div>
   <div class="item4">Message</div>
   <div class="item5">Ethan Cumsworth</div>
   <div class="item6">He/Him</div>
   <div class="item7">"Life is a highway". You only need 3 things in life, Booze, Birds and the Footie</div>
-  <div class="item8">Post 1</div>
-  <div class="item9">Post 2</div>
-  <div class="item10">Post 3</div>
+  <div class="item8">I heard a rumor that the founders of this website are hiding something </div>
+  <div class="item9">I dont rememberr the last time I played my guitar. I'm honestly too addicted to my computer.
+    this website specifically LOL!
+  </div>
+  <div class="item10">I actually used to know one of the owners of this site. I haven't heard from them in so long.</div>
   
 </div>
 

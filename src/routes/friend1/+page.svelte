@@ -9,15 +9,20 @@
 
   </div>
 
+  <!---Items 8,9 and 10 are the users 3 most recent posts--->
+
   <div class="item3">Send Friend Request</div>
   <div class="item4">Message</div>
   <div class="item5">Frog Gamer</div>
   <div class="item6">She/Her</div>
   <div class="item7">Simply a gamer XD. 
-    Im quite awesome sauce! LOL XD!!!</div>
-  <div class="item8">Post 1</div>
-  <div class="item9">Post 2</div>
-  <div class="item10">Post 3</div>
+    Im quite awesome sauce! LOL XD!!!
+  I'm a fan of Star Wars and My Little Pony. I like gaming, especially
+Mario Galaxy! If you ever wanna chat about anything really, my 
+messages are always open! </div>
+  <div class="item8">After 3 months of grinding, I finally collected all 50 rare Neopets! is anyone else collecting?  </div>
+  <div class="item9"> I'm thinking of starting a Youtube channel. Any pieces of advice?</div>
+  <div class="item10">I don't know how long I've spent on this website, and honestly I can't stop</div>
   
 </div>
 

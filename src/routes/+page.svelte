@@ -100,19 +100,19 @@
         <div class="friends-list">
             <div class="friend-card">
                 <!-- ADD YOUR FRIEND AVATAR HERE -->
-                <a href="#">☆ Xx_BigManJimmy_xX ☆</a>
+                <a href="/friend1/">☆ xX_Frog_Gamer_Xx ☆</a>
             </div>
             <div class="friend-card">
                 <!-- ADD YOUR FRIEND AVATAR HERE -->
-                <a href="#">★ Ethan Cumthorne ★</a>
+                <a href="/friend2/">★ DarkEagle36 ★</a>
             </div>
             <div class="friend-card">
                 <!-- ADD YOUR FRIEND AVATAR HERE -->
-                <a href="#">♦ EmoGothCyberWoman ♦</a>
+                <a href="/friend3/">♦ EmoGothCyberWoman ♦</a>
             </div>
             <div class="friend-card">
                 <!-- ADD YOUR FRIEND AVATAR HERE -->
-                <a href="#">♥ Philip's Diary ♥</a>
+                <a href="/friend4/">♥ Trololololo94 ♥</a>
             </div>
         </div>
         <div class="webring">

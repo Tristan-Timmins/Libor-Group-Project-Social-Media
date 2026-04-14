@@ -14,7 +14,7 @@
     <h2 class="founders">Meet the Founders!</h2>
 </div>
 
-<div class="info-section">
+<section class="info-section">
     <div class="beatrice">Founder 1: Beatrice Murphy
         <p class="beatrice-text">
             Beatrice was born in the suburbs as an only child. Since she was little, she dreamed of 
@@ -40,7 +40,7 @@
         </p>
     </div>
 
-</div>
+</section>
 
 <h2 class="closing-text">Now that you've met The Founders, support their noble cause and join us today! 
     Blog N' Log was designed by folks like you, for you!! You'll never want to leave!!

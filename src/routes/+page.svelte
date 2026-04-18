@@ -115,13 +115,6 @@
                 <a href="/friend4/">♥ Trololololo94 ♥</a>
             </div>
         </div>
-        <div class="webring">
-            <div class="webring-links">
-                <a href="#" on:click|preventDefault={() => navigateWebring('prev')}>[Previous]</a>
-                <a href="#" on:click|preventDefault={() => navigateWebring('random')}>[Random]</a>
-                <a href="#" on:click|preventDefault={() => navigateWebring('next')}>[Next]</a>
-            </div>
-        </div>
     </div>
 
     <!-- Middle Column: Recent Posts -->
@@ -411,26 +404,6 @@
         text-decoration: underline;
         color: #ff6600;
         text-shadow: 1px 1px 0px #ffcc00;
-    }
-    
-    .webring {
-        margin-top: 15px;
-        text-align: center;
-        font-size: 11px;
-        background: #ffffcc;
-        padding: 8px;
-        border: 1px dashed #ff9966;
-    }
-    
-    .webring-links a {
-        color: #663399;
-        text-decoration: none;
-        margin: 0 5px;
-        cursor: pointer;
-    }
-    
-    .webring-links a:hover {
-        text-decoration: underline;
     }
     
     /* ============================================

@@ -1,6 +1,9 @@
+<script>
+  import { asset } from "$app/paths";
+</script>
+
 <div class="about-container">
 <section>
-<div>
     <div>
         <h2 class="welcome-banner">Welcome to The Founders Page!</h2>
     <p class="welcome-paragraph">
@@ -49,16 +52,14 @@
         What are you waiting for? Do it now!
     You don't want our idea to fail, do you?</p>
 </h2>
-
 </div>
+<!--TEST
+<div class="Springtrap">
+    <img src={asset("/images/about/Springtrap_hw_by_Scrappyboi2.png")}/>
+</div>
+-->
 
 <style>
-    .item2 {grid-area:left;
-        width: 500px;}
-    .item3 {grid-area: main;
-        width: 500px;}
-    .item4 {grid-area: right;
-        width: 500px;}
     /*CONTAINER FOR BEGINNING OF PAGE**/
     .about-container{
         text-align: center;
@@ -160,6 +161,9 @@
         font-family: 'Courier New', Courier, monospace;
         padding: 10px;
         font-size: small;
+    }
+    .Springtrap{
+    width: 25%;
     }
 </style>
 

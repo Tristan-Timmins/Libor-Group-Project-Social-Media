@@ -1,22 +1,8 @@
-<div class="form-container">
-<section>
-<div>
-    <h2 class="form">Sign Up now to access the wonders Blog N' Log has to offer!!</h2>
-   <form method="POST" action="">
-	<label class="label">
-		Email:
-		<input name="email" type="email">
-	</label>
-	<label>
-		Password:
-		<input name="password" type="password">
-	</label>
-	<a href="/" class="button">Sign Up</a>
-</form>
-</div>
-</section>   
-</div>
-
+<!DOCTYPE <html>
+<html lang="en">
+<head>
+<meta charset="8">
+<meta name="viewport" content="width-device-width, initial-scale=1.0, user-scalable=no">
 <style>
 .form-container{
     text-align: center;
@@ -45,3 +31,38 @@ a.button {
     text-decoration: none;
 }
 </style>
+
+<script>import { goto } from '$app/navigation';
+    import { resolve } from '$app/paths';
+    /*on:click={() => goto(resolve('/'))}**/
+</script>
+
+</head>
+
+<body>
+<div class="form-container">
+<section>
+<div>
+    <h2 class="form">Sign Up now to access the wonders Blog N' Log has to offer!!</h2>
+   <form method="POST" action="">
+	<label class="label">
+		Email:
+		<input type="email" id="user-email" required
+         placeholder="you@example.com">
+	</label>
+	<label>
+		Password:
+		<input type="password" id="user-password" required
+        placeholder="GoodPassword"
+
+         minlength="8">
+	</label>
+	<!--<a href="/" class="button">Sign Up</a>-->
+    <button type="submit">Sign Up</button>
+</form>
+</div>
+</section>   
+</div>
+
+</body>
+</html>    

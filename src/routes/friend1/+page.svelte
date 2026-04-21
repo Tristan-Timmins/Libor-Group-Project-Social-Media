@@ -62,10 +62,18 @@ messages are always open! </div>
 color: rgba(255, 54, 54, 0.8); 
 }
 .item2 { grid-area: picture;
-width: 75%; }
+width: 61%; }
 
 .item2 > img {
-  max-width: 200px;
+  max-width: 350px;
+  max-height: 350px;
+
+  
+  border-style: solid;
+border-radius: 5px;
+max-width: 500px;
+max-height: 500px;
+
 }
 
 .item3 { grid-area: request; }

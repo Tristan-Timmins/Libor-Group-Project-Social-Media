@@ -38,20 +38,33 @@
   'bio bio bio post2 post2 post2'
   'bio bio bio post3 post3 post3';
   grid-gap: 10px;
-  background-color: rgb(218, 98, 255);
+  background-color: rgb(255, 255, 255);
   padding: 10px;
 }
 
 
 .grid-container > div {
-  background-color: rgba(201, 244, 255, 0.8);
+  background-color: rgba(143, 233, 255, 0.8);
   text-align: center;
   padding: 20px 0;
   font-size: 30px;
 }
 
 .item1 { grid-area: username; }
-.item2 { grid-area: picture; }
+.item2 { grid-area: picture;
+
+  width: 61%; }
+
+.item2 > img {
+  max-width: 350px;
+  max-height: 350px;
+
+    border-style: solid;
+border-radius: 5px;
+max-width: 500px;
+max-height: 500px;
+}
+
 .item3 { grid-area: request; }
 .item4 { grid-area: message; }
 .item5 { grid-area: name;}

@@ -19,19 +19,37 @@
 <!--Username-->
 <div class="username">
 
-    <p>My Username</p>
+    <h1>My Username</h1>
+
+    <input type="Username" id="user-username" 
+         placeholder="my username here"
+         maxlength="30"
+         >
 
 </div>
 <!--Bio-->
 <div class="Bio">
 
-    <p>My Bio</p>
+    <h1>My Bio</h1>
+
+
+         <textarea class="Bio-Input">
+          
+         </textarea>
+
+
 
 </div>
 <!--Pronouns-->
 <div class="Pronouns">
 
-    <p>My Pronouns</p>
+    <h1>My Pronouns</h1>
+
+    
+		<input type="Pronouns" id="user-Pronouns" 
+         placeholder="my pronouns here"
+         maxlength="30"
+         >
 
 </div>
 
@@ -44,10 +62,19 @@
 
 
 <style>
+
+.Bio-Input{
+
+height: 420px;
+font-family: 'Comic Sans MS';
+font-size: 30px;
+}
+
+
 .pfp{
  border-style: solid;
 border-radius: 5px;
-
+justify-self: center;
 }
 
 img{
@@ -55,9 +82,11 @@ border-style: solid;
 border-radius: 5px;
 max-width: 500px;
 max-height: 500px;
+grid-column: 1/ span 1;
+grid-row: 1/ span 1;
 
 
-padding: 15px 25px;
+padding: 20px 25px;
   font-size: 24px;
   text-align: center;
   cursor: pointer;
@@ -84,22 +113,39 @@ img:active {
 .username{
  border-style: solid;
 border-radius: 5px;
+grid-column: 1/ span 1;
+max-height: 120px;
+font-family: 'Comic Sans MS';
+}
+
+h1{
+  font-family: 'Comic Sans MS';
+}
+
+input{
+  font-family: 'Comic Sans MS';
+  font-size: 30px;
 }
 
 .Bio{
  border-style: solid;
 border-radius: 5px;
+grid-column: 2/ span 1;
+grid-row: 1/ span 1;
 }
 
 .Pronouns{
  border-style: solid;
 border-radius: 5px;
+max-height: 120px;
+
 }
 
 
 .Overall{
 display: grid;
 grid-template-columns: repeat(2, 1fr);
+grid-template-rows: repeat(3, 1fr);
 
 }
  </style>

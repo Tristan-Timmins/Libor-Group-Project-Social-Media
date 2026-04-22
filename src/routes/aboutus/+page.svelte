@@ -5,16 +5,20 @@
 <div class="about-container">
 <section>
     <div>
-        <h2 class="welcome-banner">Welcome to The Founders Page!</h2>
-    <p class="welcome-paragraph">
-        We've decided to create a website to surpass all other social platforms. 
-        Tired of feeling like you don't have a cool place for you and your friends to hang out?
-        Well worry no more.
-    </p>
+        <h2 class="welcome-banner">
+            Welcome to The Founders Page!
+        </h2>
+        <p class="welcome-paragraph">
+            We've decided to create a website to surpass all other social platforms. 
+            Tired of feeling like you don't have a cool place for you and your friends to hang out?
+            Well worry no more.
+        </p>
     </div>
 </section>
 <div>
-    <h2 class="founders">Meet the Founders!</h2>
+    <h2 class="founders">
+        Meet the Founders!
+    </h2>
 </div>
 
 <section class="info-section">
@@ -45,15 +49,18 @@
 
 </section>
 
-<h2 class="closing-text">Now that you've met The Founders, support their noble cause and join us today! 
+<h2 class="closing-text">
+    Now that you've met The Founders, support their noble cause and join us today! 
     Blog N' Log was designed by folks like you, for you!! You'll never want to leave!!
 
-    <p class="closing-pg">Sign up now and create an account to get chatting with your friends. 
+    <p class="closing-pg">
+        Sign up now and create an account to get chatting with your friends. 
         What are you waiting for? Do it now!
-    You don't want our idea to fail, do you?</p>
+        You don't want our idea to fail, do you?
+    </p>
 </h2>
 </div>
-<!--TEST
+<!--
 <div class="Springtrap">
     <img src={asset("/images/about/Springtrap_hw_by_Scrappyboi2.png")}/>
 </div>
@@ -71,7 +78,7 @@
         border-bottom: 200px solid #ffffff;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        gap: 15px;
+        
         padding: 15px; 
     }
     /*INTRO PARAGRAPH**/
@@ -90,7 +97,12 @@
     .welcome-paragraph{
         font-family: 'Comic Sans MS';
         color: #571b1b;
+        gap: 15px;
         padding: 10px;
+         border: 5px solid #ff847c;
+        border-radius: 5px;    
+        box-sizing: border-box;
+        background-color: #ffd8be;
     }
     /*FOUNDER INFORMATION SECTION**/
     .info-section{
@@ -163,7 +175,8 @@
         font-size: small;
     }
     .Springtrap{
-    width: 25%;
+    width: 25px;
+    height: 10px;
     }
 </style>
 

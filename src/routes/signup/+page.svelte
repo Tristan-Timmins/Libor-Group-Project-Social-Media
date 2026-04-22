@@ -1,8 +1,54 @@
-<!DOCTYPE <html>
-<html lang="en">
-<head>
-<meta charset="8">
-<meta name="viewport" content="width-device-width, initial-scale=1.0, user-scalable=no">
+<script>
+    import { goto } from '$app/navigation';
+    import { resolve } from '$app/paths';
+    /*on:click={() => goto(resolve('/'))}**/
+
+    let name = '';
+    let password = '';
+
+    $: isLongEnough = password.length >= 8;
+    $: hasName = name;
+    $: isValid = isLongEnough && hasName;
+</script>
+
+<div class="form-container">
+    <section>
+        <h2 class="form">
+            Sign Up now to access the wonders Blog N' Log has to offer!!
+        </h2>
+        <form class="" method="POST" action="">
+            <label class="label">
+                Name:
+                <input 
+                    type="name" 
+                    id="user-name" 
+                    placeholder="Your Name"
+                    required
+                >
+            </label>
+            <label>
+                Password:
+                <input 
+                    type="password" 
+                    id="user-password"
+                    placeholder="GoodPassword"
+                    minlength="8"
+                    required
+                >
+            </label>
+            <!--<a href="/" class="button">Sign Up</a>-->
+            <button 
+                type="submit" 
+                
+            >Sign Up</button>
+            {#if isValid}
+                on:click={() => goto(resolve('/'))}
+            {/if}
+        </form>
+    </section>   
+</div> 
+
+
 <style>
 .form-container{
     text-align: center;
@@ -22,7 +68,7 @@
     padding: 10px;
 }
 
-a.button {
+.button {
     padding: 1px 6px;
     border: 1px outset buttonborder;
     border-radius: 3px;
@@ -31,38 +77,3 @@ a.button {
     text-decoration: none;
 }
 </style>
-
-<script>import { goto } from '$app/navigation';
-    import { resolve } from '$app/paths';
-    /*on:click={() => goto(resolve('/'))}**/
-</script>
-
-</head>
-
-<body>
-<div class="form-container">
-<section>
-<div>
-    <h2 class="form">Sign Up now to access the wonders Blog N' Log has to offer!!</h2>
-   <form method="POST" action="">
-	<label class="label">
-		Email:
-		<input type="email" id="user-email" required
-         placeholder="you@example.com">
-	</label>
-	<label>
-		Password:
-		<input type="password" id="user-password" required
-        placeholder="GoodPassword"
-
-         minlength="8">
-	</label>
-	<!--<a href="/" class="button">Sign Up</a>-->
-    <button type="submit">Sign Up</button>
-</form>
-</div>
-</section>   
-</div>
-
-</body>
-</html>    

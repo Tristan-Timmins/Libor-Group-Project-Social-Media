@@ -26,7 +26,7 @@
 
     /* Backgrounds & Surfaces */
     --color-background: #f4f9fd; /* Light parchment background */
-    --color-surface: #39a6ff;    /* Panels, cards */
+    --color-surface: #ffffff;    /* Panels, cards */
     --color-border: #dcdccf;     /* Subtle earthy border */
     --color-overlay: rgba(0, 0, 0, 0.25);
     --color-code-bg: #f0efeb;

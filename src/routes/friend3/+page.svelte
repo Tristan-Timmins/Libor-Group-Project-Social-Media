@@ -66,10 +66,12 @@ max-height: 500px;
 }
 .item3 { grid-area: request; }
 .item4 { grid-area: message; }
-.item5 { grid-area: name;}
-.item6 { grid-area: pronouns;}
+.item5 { grid-area: name;
+  width: 50%;}
+.item6 { grid-area: pronouns;
+  width: 50%;}
 .item7 { grid-area: bio;
-width: 75%;}
+width: 97%;}
 .item8 { grid-area: post1;}
 .item9 { grid-area: post2;}
 .item10 { grid-area: post3;}

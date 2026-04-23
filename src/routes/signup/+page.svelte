@@ -9,6 +9,11 @@
     $: isLongEnough = password.length >= 8;
     $: hasName = name;
     $: isValid = isLongEnough && hasName;
+
+
+    function submitForm() {
+        console.log("here");
+    }
 </script>
 
 <div class="form-container">
@@ -16,7 +21,7 @@
         <h2 class="form">
             Sign Up now to access the wonders Blog N' Log has to offer!!
         </h2>
-        <form class="" method="POST" action="">
+        <form on:submit={() => submitForm()}>
             <label class="label">
                 Name:
                 <input 
@@ -42,7 +47,7 @@
                 
             >Sign Up</button>
             {#if isValid}
-                on:click={() => goto(resolve('/'))}
+                <button on:click={() => goto(resolve('/'))}>Return to Homepage</button>
             {/if}
         </form>
     </section>   
